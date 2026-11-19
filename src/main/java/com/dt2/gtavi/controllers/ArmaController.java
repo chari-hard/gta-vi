@@ -1,14 +1,13 @@
 package com.dt2.gtavi.controllers;
 
 import com.dt2.gtavi.entities.Arma;
-import com.dt2.gtavi.entities.Personagem;
 import com.dt2.gtavi.repositories.ArmaRepository;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
 @RestController
-@RequestMapping("api/personagens")
+@RequestMapping("api/armas")
 public class ArmaController {
 
     private final ArmaRepository repository;
